@@ -40,6 +40,7 @@ db.connect((err) => {
 //     });
 // });
 
+
 // all users details - get call
 app.get('/alluser', (req, res) => {
     const sql  = ' select * from userinfo';
